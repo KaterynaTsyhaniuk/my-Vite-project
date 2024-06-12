@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-3cfb730f.js";function r(n){let t=0,e=1;const l=document.getElementById("output-input"),s=document.getElementById("start-btn");s.disabled=!0;const i=setInterval(()=>{l.value=n[t],e===1&&t===n.length-1?e=-1:e===-1&&t===0?(clearInterval(i),setTimeout(()=>{l.value="",s.disabled=!1},1e3)):t+=e},1e3)}document.getElementById("start-btn").addEventListener("click",()=>{r([1,2,3,4,5])});
+//# sourceMappingURL=commonHelpers3.js.map

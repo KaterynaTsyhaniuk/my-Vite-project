@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-3cfb730f.js";const d=()=>Math.floor(Math.random()*100)+1,a=document.querySelector(".box-list");function c(o,s){const e=document.createElement("div");e.classList.add("number-container");for(let n=0;n<o;n++){const t=document.createElement("div");t.classList.add("number"),t.textContent=d(),t.textContent%2===0?t.classList.add("even"):t.classList.add("odd"),e.appendChild(t)}s.after(e)}c(100,a);console.log(divContainer);
+//# sourceMappingURL=commonHelpers.js.map

@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-3cfb730f.js";const a=document.querySelector("#theme-switch"),e=document.body,t="switch";a.addEventListener("click",c=>{c.currentTarget.checked?(e.classList.replace("light","dark"),localStorage.setItem(t,"dark")):(e.classList.replace("dark","light"),localStorage.setItem(t,"light"))});function s(){localStorage.getItem(t)==="dark"?(e.classList.replace("light","dark"),a.checked=!0):e.classList.replace("dark","light")}document.addEventListener("DOMContentLoaded",s);
+//# sourceMappingURL=commonHelpers2.js.map
